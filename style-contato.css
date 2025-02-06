@@ -1,0 +1,104 @@
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    height: 250px;
+    background: rgb(245, 220, 220);
+}
+
+.headline{
+    flex: 90%;
+    margin: 10%;
+    margin-top: 1%;
+    color: #432820;
+
+
+}
+
+.headline h1{
+    font-weight: 900;
+    font-size: 60px;
+
+}
+
+.headline h2{
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.form{
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2rem;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.form label{
+    display: block;
+    font-size: 20px;
+    color: #442319;
+}
+
+.form input, .form textarea, .button{
+    margin-top: 2%;
+    font-size: 20px;
+    color: #432820;
+    margin-bottom: 15px;
+    
+}
+
+.form input, .form textarea{
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid #b66c55;
+    width: 100%;
+    outline: none;
+ 
+    
+}
+
+.form textarea{
+    min-height: 8rem;
+    resize: none;
+}
+
+.form input:hover,
+.form textarea:hover{
+    border-color: #e62f72;
+    box-shadow: 0 0 6px #e62f72;
+    outline: none;
+}
+
+.button{
+    width: 100%;
+    max-width: 20rem;
+    padding: 16px;
+    background: #432820;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-color: #2b1a15;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 40%;
+
+}
+
+.button:hover{
+    outline: none;
+    background: #e62f72;
+    color: white;
+}
+
+
+
+

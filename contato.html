@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-nav.css">
+    <link rel="stylesheet" href="style-contato.css">
+    <link rel="stylesheet" href="style-footer.css">
+    <title>Contato</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/brigadeiro.png" alt="logo-brigadeiro">
+            <h1>Brigadeiros Gourmet</h1>
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="encomenda.html">Encomenda</a>
+            <a id="botao" href="contato.html">Fale Conosco</a>
+        </div>
+
+    </nav>
+
+    <header>
+        <div class="headline">
+            <h1>Contato</h1>
+            <h2>Caso tenha alguma dúvida entre em contato conosco através do nosso formulário de contato</h2>
+        </div>
+    </header>
+
+    <section>
+        <form action="https://formsubmit.co/aline.teste.site@gmail.com" method="post" class="form">
+            <label for="name">Nome:<br>
+                <input type="text" name="name" id="name" required><br>
+            </label>    
+
+            <label for="email">E-mail:<br>
+                <input type="email" name="email" id="email" required><br>
+             </label>
+
+            <label  for="telefone">Telefone:<br>
+                <input type="tel" name="telefone" id="telefone" required><br>
+            </label>
+
+
+            <label for="message">Mensagem:<br>
+                <textarea name="message" placeholder="Digite sua mensagem" maxlength="500"  id="message"></textarea>
+            </label>
+            <br>
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigada.html" id="">
+            <button type="submit" class="button" >Enviar</button>
+
+
+
+        </form>
+    </section>
+
+    <footer>
+        <div class="logo-rodape">
+            <h1 class="titulo-rodape">Brigadeiros Gourmet</h1>
+            <p style="color: white;">Um site feito com HTML e CSS puro</p>
+            <b style="color: white;" class="direito-reservado">© Todos os direitos reservados</b>
+        </div>
+
+    </footer>
+</body>
+</html>
